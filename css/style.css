@@ -1,0 +1,99 @@
+/*le regles d'écriture*/
+/*le selecteur accolade la propriété deux points la valuer point virgule et je ferme l'accolade*/
+body
+{
+    background-color: antiquewhite;
+}
+img /*toute les image prengront la taille des blocs*/
+{
+    width: 100%;
+}
+figure /*supprime les marge pardefaut*/
+{
+    margin: 0;
+    padding: 0;
+}
+
+header,main,footer 
+{
+    border: black 2px solid;
+    margin-bottom: 20px;
+    padding: 10px
+}
+section 
+{
+    border: red 2px solid;
+    padding: 10px
+}
+div
+{
+    border: purple 2px solid;
+    padding: 10px
+}
+article
+{
+    border: blue 2px solid;
+    padding: 10px
+}
+figure
+{
+    border: green 2px solid;
+    padding: 10px
+}
+/**je te donne le nom d'une class et je luie met les parametre de la methode flexbx pour placer les elements a l'horizontal a l'interieur de la section**/
+.flex
+{
+    display: flex;
+    /*je dirige mes element a l'hrizontal*/
+    flex-direction: row;
+    /*retour a la ligne auande ca depasse 100%*/
+    flex-wrap: wrap;
+    /*je justife mes elements correctement dans le bloc*/
+    justify-content: space-around;
+}
+.ensemble-article h2
+{
+   width: 100%;
+   margin: auto;
+   border: 1px solid orange; 
+   margin-bottom: 20px;
+   text-align: center;    
+}
+.ensemble-article p
+{
+   width: 70%;
+   margin: auto;
+   border: 1px solid orange; 
+   margin-bottom: 20px;    
+}
+.ensemble-article article
+{
+   width: 30%;  
+   margin-bottom: 30px;  
+}
+.ensemble-article article p
+{
+   width: 100%;  
+   margin-bottom: 30px;  
+}
+.depart 
+{
+    width: 70%;
+    margin: auto;/*centrer un bloc*/
+}
+.depart div
+{
+    width: 30%;
+    margin-bottom: 25px;
+}
+.depart button
+{
+    /*je change la proprieter des buttons pour qu'ils fonction comme des blocs*/
+   display: block;    
+   width: 90%;
+   margin: auto;
+   height: 35px;
+   border: none; /*enlever le border*/
+   border-radius: 5px; /*arondi les border*/   
+   background-color: orange;
+}
