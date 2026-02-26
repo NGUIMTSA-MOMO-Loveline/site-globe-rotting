@@ -1,5 +1,9 @@
 /*le regles d'écriture*/
 /*le selecteur accolade la propriété deux points la valuer point virgule et je ferme l'accolade*/
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     background-color: antiquewhite;
@@ -13,7 +17,15 @@ figure /*supprime les marge pardefaut*/
     margin: 0;
     padding: 0;
 }
-
+h1,h2,h3,h4
+{
+    text-align: center;
+    font-family: "Arimo", sans-serif;
+}
+p
+{
+    font-family: "Arimo", sans-serif;
+}
 header,main,footer 
 {
     border: black 2px solid;
@@ -96,4 +108,95 @@ figure
    border: none; /*enlever le border*/
    border-radius: 5px; /*arondi les border*/   
    background-color: orange;
+}
+.perso
+{
+    width: 70%;
+    margin: auto;
+}
+footer
+{
+    background-color: aquamarine;
+    padding-left: 10%;
+}
+.info
+{
+    width: 20%;
+}
+.inspiration
+{
+    width: 50%;
+    text-align: center;
+}
+.haut
+{
+    width: 5%;
+}
+.info figure img
+{
+    width: 50px;
+}
+figure.logo2 img
+{
+    width: 100%;
+}
+nav
+{
+    text-align: center;
+}
+nav a
+{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding-right: 15px;
+}
+nav a:hover
+{
+    color: orange;
+}
+a.orange
+{
+    color: orange;
+}
+.depart button a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+article h3 a
+{
+    color: orange;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+article h3 a:hover
+{
+    color: palegoldenrod;
+}
+article h4 a
+{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+article h4 a:hover
+{
+    color: green;
+}
+article p a
+{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+article p a:hover
+{
+    color: green;
+}
+a.black
+{
+    color: black
 }
